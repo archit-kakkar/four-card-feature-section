@@ -1,0 +1,122 @@
+body {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(234, 12%, 34%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+/* Title Section */
+.title {
+    text-align: center;
+}
+
+.title-heading1 {
+    font-size: 2.3rem;
+    font-weight: 200;
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+.title-heading2 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 1%;
+}
+
+.title-text {
+    color: hsl(229, 6%, 66%);
+    margin: auto 28% 5%;
+}
+
+/* Block heading, content & icon */
+.heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 15px 25px 0 30px;
+}
+
+.content {
+    color: hsl(229, 6%, 66%);
+    font-size: 0.85rem;
+    padding: 0 25px 20px 30px;
+}
+
+.icon {
+    position: absolute;
+    right: 30px;
+}
+
+/* All Blocks */
+.supervisor, .team-builder, .karma, .calculator {
+    background-color: white;
+    border-radius: 1vw;
+    box-shadow: 0 4px 8px 0 rgba(58, 59, 59, 0.2), 0 6px 20px 0 rgba(170, 168, 168, 0.19);
+    position: relative;
+    height: 260px;
+    width: 340px;
+}
+
+ /* Supervisor Block  */
+.supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 6.5vw;
+}
+
+/* Team-Builder Block */
+.team-builder {
+    border-top: 4px solid hsl(0, 78%, 62%);
+    position: absolute;
+    margin-left: 454px;   
+}
+
+/* Karma Block */
+.karma {
+    border-top: 4px solid hsl(34, 97%, 64%);
+    position: absolute;
+    margin-left: 454px;
+    margin-top: 295px;
+}
+
+/* Calculator Block */
+.calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
+    margin-top: 210px;
+    margin-left: 824px;
+    margin-bottom: 250px;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {  
+
+    .title-text {
+        margin: auto 18% 5%;
+    }
+
+    .title-heading1 {
+        margin: 5rem 15% 0;
+        font-size: 1.68rem;
+    }
+
+    .title-heading2 {
+        margin: 0 15% 1rem;
+        font-size: 1.68rem;
+    }
+
+    .title-text {
+        margin-bottom: 80px;
+    }
+
+    .icon {
+        position: static;
+        padding-left: 245px;
+    }
+
+    .supervisor, .team-builder, .karma, .calculator {
+        position: static;
+        margin: 40px auto;
+    } 
+
+}
